@@ -8,6 +8,7 @@ function App(){
   return(
     <div>
       <h1>Testing React!</h1>
+      <button>ClickMe</button>
     </div>
   )
 }
