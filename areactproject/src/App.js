@@ -5,12 +5,11 @@ function App() {
     console.log("TestingReact");
   };
 
-  const counter = 0;
 
   return(
     <div>
       <h1>Testing React!</h1>
-      <button>0</button>
+      <button onClick={testReact} >Testing Button</button>
     </div>
   );
 }
