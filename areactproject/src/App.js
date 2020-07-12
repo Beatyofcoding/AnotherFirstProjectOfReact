@@ -1,15 +1,12 @@
 import React from "react";
+import test from"./testReact";
 
 function App() {
-  const testReact = () => {
-    console.log("TestingReact");
-  };
-
-
-  return(
+  
+  return (
     <div>
-      <h1>Testing React!</h1>
-      <button onClick={testReact} >Testing Button</button>
+      <h1>Testing Component</h1>
+      <test />
     </div>
   );
 }

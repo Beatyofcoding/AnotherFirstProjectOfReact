@@ -1,9 +1,13 @@
 import React from "react";
 
-function testReact(){
-    return(
+function test(){
+    const testReact = () => {
+        console.log("test");
+      };
+    return (
         <div>
-            <button>Testing React</button>
+            <button onClick={testReact}>TestingButton</button>
         </div>
-    )
+    );
 }
+export default test;
