@@ -6,6 +6,7 @@ function TestFunc(){
       };
     return (
         <div>
+      <h4>Testing Component-testReact.js Component</h4>
             <button onClick={testing}>Button Test</button>
         </div>
     );
