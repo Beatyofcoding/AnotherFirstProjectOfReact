@@ -5,7 +5,7 @@ function App() {
   
   return (
     <div>
-      <h1>Testing Component</h1>
+      <h1>Testing Component-App.js Component</h1>
       <TestFunc />
     </div>
   );
