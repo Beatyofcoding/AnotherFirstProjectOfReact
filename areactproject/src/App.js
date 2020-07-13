@@ -1,12 +1,12 @@
 import React from "react";
-import test from"./testReact";
+import TestFunc from"./testReact";
 
 function App() {
   
   return (
     <div>
       <h1>Testing Component</h1>
-      <test />
+      <TestFunc />
     </div>
   );
 }
