@@ -11,3 +11,5 @@ function Tweet(){
         </div>
     )
 }
+
+export default Tweet;
