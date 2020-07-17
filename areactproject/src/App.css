@@ -1,4 +1,7 @@
-
+.app {
+  height: 100vh;
+  background: darkgoldenrod;
+}
 .tweet {
   border: 3px solid darkblue;
 }
