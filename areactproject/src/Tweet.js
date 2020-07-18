@@ -9,7 +9,7 @@ function Tweet(){
             <h3>Likes Number</h3>
 
         </div>
-    )
+    );
 }
 
 export default Tweet;
