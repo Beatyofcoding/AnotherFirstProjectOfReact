@@ -3,5 +3,6 @@
   background: darkgoldenrod;
 }
 .tweet {
+  height: 400 px;
   border: 3px solid darkblue;
 }
