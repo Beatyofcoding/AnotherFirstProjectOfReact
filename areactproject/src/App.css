@@ -7,4 +7,6 @@
   width: 400px;
   background: white;
   border-radius: 40px;
+  display: flex;
+  flex-direction: column;
 }
