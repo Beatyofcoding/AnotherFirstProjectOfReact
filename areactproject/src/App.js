@@ -7,6 +7,9 @@ function App() {
     <div className="App">
       <h1>Testing Component-App.js Component</h1>
       <Tweet />
+      <Tweet />
+      <Tweet />
+      <Tweet />
     </div>
   );
 }
