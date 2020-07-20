@@ -1,6 +1,7 @@
 .App {
   min-height: 100vh;
   background: rgb(11, 184, 161);
+  display: flex;
 }
 .tweet {
   height: 400px;
