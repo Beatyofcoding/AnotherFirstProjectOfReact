@@ -2,13 +2,15 @@
   min-height: 100vh;
   background: rgb(11, 184, 161);
   display: flex;
+  justify-content: space-around;
 }
 .tweet {
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
   background: white;
   border-radius: 40px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
 }
