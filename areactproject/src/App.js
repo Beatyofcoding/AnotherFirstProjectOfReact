@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       {/* <h1>TestingApp.js</h1> */}
       <Tweet name="tweet1"/>
-      <Tweet />
+      <Tweet name="tweet2"/>
       <Tweet />
       <Tweet />
     </div>
