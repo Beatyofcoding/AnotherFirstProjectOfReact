@@ -8,8 +8,8 @@ function App() {
       {/* <h1>TestingApp.js</h1> */}
       <Tweet name="tweet1"/>
       <Tweet name="tweet2"/>
-      <Tweet />
-      <Tweet />
+      <Tweet name="tweet3"/>
+
     </div>
   );
 }
