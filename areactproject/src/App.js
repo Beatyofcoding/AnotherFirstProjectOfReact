@@ -9,6 +9,7 @@ function App() {
       <Tweet name="tweet1"/>
       <Tweet name="tweet2"/>
       <Tweet name="tweet3"/>
+      <Tweet name="tweet4"/>
 
     </div>
   );
