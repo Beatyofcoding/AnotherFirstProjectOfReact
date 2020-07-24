@@ -1,11 +1,11 @@
 import React from "react"
 import "./App.css"
 
-function Tweet(name, message){
+function Tweet({name, message}){
     return(
         <div className="tweet">
-            <h3>{props.name}</h3>
-            <p>{props.message}</p>
+            <h3>{name}</h3>
+            <p>{message}</p>
             <h3>Likes Number</h3>
 
         </div>
