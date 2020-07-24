@@ -1,7 +1,7 @@
 import React from "react"
 import "./App.css"
 
-function Tweet(props){
+function Tweet(name, message){
     return(
         <div className="tweet">
             <h3>{props.name}</h3>
