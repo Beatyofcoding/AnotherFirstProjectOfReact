@@ -2,7 +2,8 @@ import React, {useState} from "react";
 import Tweet from "./Tweet";
 
 function App() {
-  
+
+  const [isGreen, setGreen] = useState(false);
   return (
     <div className="App">
       {/* <h1>TestingApp.js</h1> */}
