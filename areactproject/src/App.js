@@ -4,6 +4,7 @@ import Tweet from "./Tweet";
 function App() {
 
   const [isGreen, setGreen] = useState(false);
+  const [count, setCount] = useState(0);
   return (
     <div className="App">
       {/* <h1>TestingApp.js</h1> */}
