@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="App">
       <button>Increment Button</button>
+      <h1>{count}</h1>
       {/* <h1>TestingApp.js</h1> */}
       {/* <Tweet name="tweet1" message="Hello This Is A Test For Tweet1"/>
       <Tweet name="tweet2" message="Hi This Is Another Test For Tweet2"/>
