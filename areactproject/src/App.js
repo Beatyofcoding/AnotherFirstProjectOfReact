@@ -5,6 +5,11 @@ function App() {
 
   const [isGreen, setGreen] = useState(false);
   const [count, setCount] = useState(0);
+
+  const incrementing = () => {
+    setCount(count + 1);
+  }
+
   return (
     <div className="App">
       <button>Increment Button</button>
