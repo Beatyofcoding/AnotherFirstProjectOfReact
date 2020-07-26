@@ -8,11 +8,11 @@ function App() {
 
   const incrementing = () => {
     setCount(count + 1);
-  }
+  };
 
   return (
     <div className="App">
-      <button>Increment Button</button>
+      <button onClick={incrementing}>Increment Button</button>
       <h1>{count}</h1>
       {/* <h1>TestingApp.js</h1> */}
       {/* <Tweet name="tweet1" message="Hello This Is A Test For Tweet1"/>
