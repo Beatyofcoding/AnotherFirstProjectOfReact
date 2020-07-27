@@ -12,6 +12,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1>Toggle Switch Color On-Off</h1>
       <button onClick={incrementing}>Increment Button</button>
       <h1>{count}</h1>
       {/* <h1>TestingApp.js</h1> */}
