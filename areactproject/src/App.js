@@ -8,6 +8,7 @@ function App() {
 
   const incrementing = () => {
     setCount(count + 1);
+    setGreen(true)
   };
 
   return (
