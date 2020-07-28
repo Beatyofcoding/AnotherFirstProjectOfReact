@@ -2,6 +2,9 @@ import React, {useState} from "react";
 import Tweet from "./Tweet";
 
 function App() {
+  const [user, setUser] = useState([
+ },
+  ]);
 
   const [isGreen, setGreen] = useState(false);
   const [count, setCount] = useState(0);
