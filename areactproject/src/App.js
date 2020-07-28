@@ -3,7 +3,7 @@ import Tweet from "./Tweet";
 
 function App() {
   const [user, setUser] = useState([
- },
+    { name: "Tweet User1" ,message: "Testing Message No1"},
   ]);
 
   const [isGreen, setGreen] = useState(false);
