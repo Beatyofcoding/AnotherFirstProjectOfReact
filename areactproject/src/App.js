@@ -6,6 +6,7 @@ function App() {
     { name: "Tweet User1" ,message: "Testing Message No1"},
     { name: "Tweet User2" ,message: "Testing Message No2"},
     { name: "Tweet User3" ,message: "Testing Message No3"},
+    { name: "Tweet User4" ,message: "Testing Message No4"},
   ]);
 
   const [isGreen, setGreen] = useState(false);
