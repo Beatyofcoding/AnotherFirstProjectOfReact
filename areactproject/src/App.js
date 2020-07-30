@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App">
       {users.map(user =>(
-        <Tweet name={user.name} />
+        <Tweet name={user.name} message={user.message} />
       ))}
       <h1 className={isGreen ? "green" : ""}>Toggle Switch Color On-Off</h1>
       <button onClick={incrementing}>Increment Button</button>
