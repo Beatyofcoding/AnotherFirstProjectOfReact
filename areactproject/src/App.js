@@ -24,7 +24,7 @@ function App() {
       ))}
       <h1 className={isGreen ? "green" : ""}>Toggle Switch Color On-Off</h1>
       <button onClick={incrementing}>Increment Button</button>
-      <h1>{count}</h1>
+      <h1 className={isGreen ? "green" : ""}>{count}</h1>
       {/* <h1>TestingApp.js</h1> */}
       {/* <Tweet name="tweet1" message="Hello This Is A Test For Tweet1"/>
       <Tweet name="tweet2" message="Hi This Is Another Test For Tweet2"/>
