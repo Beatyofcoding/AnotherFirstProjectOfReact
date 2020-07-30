@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import Tweet from "./Tweet";
 
 function App() {
-  const [user, setUser] = useState([
+  const [users, setUsers] = useState([
     { name: "Tweet User1" ,message: "Testing Message No1"},
     { name: "Tweet User2" ,message: "Testing Message No2"},
     { name: "Tweet User3" ,message: "Testing Message No3"},
@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="App">
-      {user.map(user =>(
+      {users.map(user =>(
         <Tweet />
       ))}
       <h1 className={isGreen ? "green" : ""}>Toggle Switch Color On-Off</h1>
